@@ -10,6 +10,7 @@ docker run -ti --name some-prestashop --network prestashop-net -e DB_SERVER=some
 docker exec -i -t 4a414a7bcb70 /bin/bash
 ```
 
+
 # Modificamos el docker de MySQL
 ```linux
 mysql -u root -px1234567890
